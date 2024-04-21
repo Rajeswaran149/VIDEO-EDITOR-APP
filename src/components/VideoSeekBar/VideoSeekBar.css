@@ -1,0 +1,56 @@
+.custom-slider-container {
+    width: 80%;
+    height: 50px !important;
+    padding: 0;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+  
+    .MuiSlider-thumb {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color: #44618f;
+      border: 2px solid #ffffff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  
+      &:hover {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 2px 6px 0 rgba(0, 0, 0, 0.18);
+      }
+  
+      &.Mui-active {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 2px 6px 0 rgba(0, 0, 0, 0.18);
+      }
+    }
+  
+    .MuiSlider-rail {
+      height: 10px;
+      border-radius: 5px;
+    }
+  
+    .MuiSlider-track {
+      height: 10px;
+      border-radius: 5px;
+      background-color: #44618f;
+    }
+  
+    .MuiSlider-valueLabel {
+      width: 20px;
+      font-size: 10px;
+      background-color: #44618f;
+      top: -20px;
+    }
+  
+    .MuiSlider-valueLabel.MuiSlider-valueLabelOpen {
+      top: -20px;
+    }
+  
+    .MuiSlider-valueLabelContainer {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      margin-bottom: -5px;
+      margin-left: -3px;
+      background-color: #44618f;
+    }
+  }

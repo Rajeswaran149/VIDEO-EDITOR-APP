@@ -1,0 +1,46 @@
+/* Sidebar.css */
+.sidebar {
+    width:5%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: black;
+    background-color: rgb(12, 12, 12);
+  }
+
+  .sidebar:hover {
+    width:10%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: black;
+    background-color: rgb(12, 12, 12);
+  }
+  
+  .sidebar>ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar>ul>li {
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: rgb(231, 229, 229);
+  }
+
+  .sidebar>ul>li>div {
+    font-size: 0.6rem;
+  }
+
+  
+  .sidebar>ul>li:hover {
+    color: rgb(164, 164, 164);
+    font-size: 1.4rem;
+  }
+  
+ 
+  

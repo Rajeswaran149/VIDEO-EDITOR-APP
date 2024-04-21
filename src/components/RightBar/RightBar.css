@@ -1,0 +1,64 @@
+/* Sidebar.css */
+.right-bar {
+  width:5%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: rgb(240, 238, 238);
+  background-color: rgb(12, 12, 12);
+  padding-top: 1rem;
+}
+
+.right-bar:hover {
+  width:18%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: black;
+  background-color: rgb(225, 221, 221);
+  margin-left: auto;
+  
+  .right-bar-content{
+    display: block;
+    padding: 0.5rem;
+    }
+    .right-bar-icon{
+      display: none;
+    }
+}
+.right-bar-icon{
+  display: block;
+  margin-top: 1rem;
+}
+.right-bar-content{
+display: none;
+margin-top: 1rem;
+
+}
+.right-bar>ul {
+  list-style: none;
+  padding: 0;
+}
+
+.right-bar>ul>li {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+.right-bar>ul>li>.right-bar-icon {
+  font-size: 0.6rem;
+  color: whitesmoke;
+}
+
+
+.right-bar>ul>li:hover {
+  color: rgb(38, 38, 38);
+  font-size: 1.4rem;
+}
+
+
